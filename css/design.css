@@ -1,0 +1,422 @@
+:root{
+    --primary :  #2E86C1;
+    --bg : #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--bg);
+    color: #000000;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5%;
+    background-color: rgba(250, 250, 250, 1);
+    border-bottom: 3px solid var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navlogo img{
+    width: 180px;
+}
+
+.navbar .navnavigasi a{
+    color: var(--primary);
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 1rem;
+}
+
+.navbar .navnavigasi a:hover{
+    color: #28B463;
+    transition: .2s;
+}
+
+.navbar .navnavigasi a::after{
+    content: '';
+    display: block;
+    padding-bottom: .5rem;
+    border-bottom: .1rem solid #28B463;
+    transform: scaleX(0);
+    transition: .2s linear;
+}
+
+.navbar .navnavigasi a:hover::after{
+    transform: scaleX(1);
+}
+
+.navbar .navtambahan a{
+    color: var(--primary);
+    margin: 0 .5rem;;
+}
+
+.navbar .navtambahan a:hover{
+    color: #28B463;
+    transition: .2s;
+}
+
+.navbar .navtambahan #menu{
+    display: none;
+}
+
+/* section hero */
+#home{
+    margin-top: 7%;
+    min-height: 100vh;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ 
+    background-color: #5f9ea0;
+}
+
+.hero .content {
+    padding: 1.6rem 5%;
+}
+
+.hero .content h1{
+    font-size: 2em;
+    color: var(--bg);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+}
+
+.hero .content h3{
+    font-size: 1.5em;
+    color: var(--bg);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+    margin-bottom: 3%;
+}
+.hero .content p{
+    font-size: 2rem;
+    color: var(--bg);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+}
+ 
+/* About Styleeee */
+.about{
+    padding: 10rem 7% 1.4rem;
+ 
+}
+
+.about h2{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.about .row{
+    display: flex;
+}
+
+.about .row .about-img{
+    flex: 1 1 45rem;
+}
+
+.about .row .about-img img{
+    width: 100%;
+}
+
+.about .row .isi{
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .isi h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .isi p{
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+/* media queries */
+
+/* laptop */
+@media(max-width: 1366px){
+    html{
+        font-size: 75%;
+    }
+}
+/* tablet */
+@media(max-width: 768px){
+    html{
+        font-size: 62.5%;
+    }
+
+    .navbar .navtambahan #menu{
+        display: inline-block;
+    }
+
+    .navbar .navnavigasi{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #ffffff;
+        width: 30rem;
+        height: 100vh;
+    }
+    .navbar .navnavigasi.active{
+        right: 0;
+    }
+}
+
+
+/* mobile phone */
+@media(max-width: 450px){
+    html{
+        font-size: 55%;
+    }
+}
+
+/* services style */
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Sesuaikan dengan tinggi yang diinginkan */
+ }
+ 
+ .services h2{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+ }
+ 
+.services .row .services-img{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.services .row .services-img img{
+    width: 300px;
+    height: 200px;
+    margin: 0 150px ;
+}
+
+.anjing{
+    margin: 120px auto;
+    width: 100%;
+}
+
+.anjing .container-anjing{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.anjing .container-anjing p{
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.anjing .list_services{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    color: var(--primary);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+    margin-top: 10%;
+}
+
+.anjing .list_services p{
+    margin-top: 5%;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.anjing .list_services ul{
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.anjing .container-anjing .daftar-tema {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2em;
+
+}
+
+.anjing .container-anjing .daftar-tema .list-tema{
+   
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 400px;
+}
+
+.anjing .container-anjing .daftar-tema .list-tema img{
+    border-radius: 50%;
+    width: 300px;
+    opacity: .8;
+}
+
+.anjing .container-anjing .daftar-tema .list-tema img:hover {
+    opacity: 1;
+}
+
+.anjing .container-anjing .daftar-tema .list-tema a{
+    text-decoration: none;
+    margin-top: .5em;
+    text-shadow: 1px 1px 1px grey;
+    color: #000000;
+}
+.anjing .container-anjing .daftar-tema .list-tema a:hover{
+    color: var(--primary); 
+}
+
+.anjing .container-anjing .link-saran a{
+    font-size: 12px;
+    color: #0595CF;
+}
+
+.kucing{
+    margin: 120px auto;
+    width: 100%;
+}
+
+.kucing .container-kucing{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.kucing .container-kucing p{
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.kucing .list_services{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    color: var(--primary);
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+    margin-top: 10%;
+}
+
+.kucing .list_services p{
+    margin-top: 5%;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.kucing .list_services ul{
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #000000;
+}
+
+
+.kucing .container-kucing .daftar-tema {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2em;
+
+}
+
+.kucing .container-kucing .daftar-tema .list-tema{  
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 400px;
+}
+
+.kucing .container-kucing .daftar-tema .list-tema img{
+    border-radius: 50%;
+    width: 300px;
+    opacity: .8;
+}
+
+.kucing .container-kucing .daftar-tema .list-tema img:hover {
+    opacity: 1;
+}
+
+.kucing .container-kucing .daftar-tema .list-tema a{
+    text-decoration: none;
+    margin-top: .5em;
+    text-shadow: 1px 1px 1px grey;
+    color: #000000;
+}
+.kucing .container-kucing .daftar-tema .list-tema a:hover{
+    color: var(--primary); 
+}
+
+.kucing .container-kucing .link-saran a{
+    font-size: 12px;
+    color: #0595CF;
+}
+
+
+
