@@ -84,6 +84,7 @@
     <div class="row fs-2 mt-5 text-center">
       <div class="col"> 
       <h1 class="fw-bold">Porsi Makanan dan Jadwal Makan:</h1>
+      <img src="imageajg/porsimakananjing.jpg" alt="">
           <p>Porsikan makanan anjing Anda sesuai dengan petunjuk pada kemasan makanan atau rekomendasi dokter hewan.</p>
           <p>Jadwalkan makan anjing Anda secara teratur. Anjing dewasa biasanya diberi makan dua kali sehari, sementara anjing muda membutuhkan makanan yang lebih sering.</p>
       </div>
@@ -91,38 +92,36 @@
 
     <div class="row fs-2 mt-5 text-center">
       <div class="col"> 
+      <h1 class="fw-bold">Air Bersih:</h1>
+      <img src="imageajg/minumananjing.jpg" alt="">
+        <p>Pastikan anjing Anda memiliki akses terus-menerus ke air bersih dan segar. Ganti air secara teratur.</p>
+
       </div>
     </div>
 
     <div class="row fs-2 mt-5 text-center">
       <div class="col"> 
+      <h1 class="fw-bold">Hindari Makanan Berbahaya:</h1>
+      <img src="imageajg/makananberbahayaanjing.jpg" alt="">
+        <p>Beberapa makanan manusia berpotensi berbahaya bagi anjing, seperti cokelat, bawang, anggur, dan xylitol (pemanis buatan). Jauhkan makanan ini dari jangkauan anjing Anda.</p>
       </div>
     </div>
 
     <div class="row fs-2 mt-5 text-center">
       <div class="col"> 
+      <h1 class="fw-bold">Perhatikan Berat Badan:</h1>
+      <img src="imageajg/beratbadananjing.jpg" alt="">
+        <p>Jaga berat badan anjing Anda agar tetap sehat. Overweight atau obesitas dapat menyebabkan masalah kesehatan yang serius.</p>
+        <p>Jika Anda memperhatikan penambahan atau penurunan berat badan yang signifikan pada anjing Anda, konsultasikan dengan dokter hewan.</p>
       </div>
     </div>
       
-                
-                
-                Air Bersih:
-
-                Pastikan anjing Anda memiliki akses terus-menerus ke air bersih dan segar. Ganti air secara teratur.
-                Hindari Makanan Berbahaya:
-
-                Beberapa makanan manusia berpotensi berbahaya bagi anjing, seperti cokelat, bawang, anggur, dan xylitol (pemanis buatan). Jauhkan makanan ini dari jangkauan anjing Anda.
-                Perhatikan Berat Badan:
-
-                Jaga berat badan anjing Anda agar tetap sehat. Overweight atau obesitas dapat menyebabkan masalah kesehatan yang serius.
-                Jika Anda memperhatikan penambahan atau penurunan berat badan yang signifikan pada anjing Anda, konsultasikan dengan dokter hewan.
-                Penutup:
-                Dengan memberikan perawatan makanan yang sehat dan seimbang, Anda dapat membantu menjaga kesehatan dan kebahagiaan anjing kesayangan Anda. Selalu konsultasikan dengan dokter hewan jika Anda memiliki pertanyaan atau keprihatinan mengenai makanan anjing Anda. Pastikan untuk memilih merek makanan anjing terpercaya dan berkualitas dari merek yang telah disebutkan sebelumnya.
-    
-    
+    <div class="row fs-2 mt-5">
+      <div class="col"> 
+        <p>Dengan memberikan perawatan makanan yang sehat dan seimbang, Anda dapat membantu menjaga kesehatan dan kebahagiaan anjing kesayangan Anda. Selalu konsultasikan dengan dokter hewan jika Anda memiliki pertanyaan atau keprihatinan mengenai makanan anjing Anda. Pastikan untuk memilih merek makanan anjing terpercaya dan berkualitas dari merek yang telah disebutkan sebelumnya.</p>
+      </div>
+    </div>
     </section>
-    
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
