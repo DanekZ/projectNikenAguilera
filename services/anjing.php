@@ -40,27 +40,27 @@
             <div class="daftar-tema">
                 <div class="list-tema">
                     <img src="../image/anjingmakan.jpg" alt="">
-                    <a href=""><h6>Makanan</h6></a>
+                    <a href="../services/anjing/makananajg.php"><h6>Makanan</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/anjobat.jpg" alt="">
-                    <a href=""><h6>Kesehatan</h6></a>
+                    <a href="../services/anjing/kesehatanajg.php"><h6>Kesehatan</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/gigianj.jpg" alt="">
-                    <a href=""><h6>Perawatan Gigi</h6></a>
+                    <a href="../services/anjing/gigiajg.php"><h6>Perawatan Gigi</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/buluanj.jpg" alt="">
-                    <a href=""><h6>Perawatan Bulu</h6></a>
+                    <a href="../services/anjing/buluajg.php"><h6>Perawatan Bulu</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/anjolahraga.jpg" alt="">
-                    <a href=""><h6>Aktivitas Fisik</h6></a>
+                    <a href="../services/anjing/fisikajg.php"><h6>Aktivitas Fisik</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/telingaanj.jpg" alt="">
-                    <a href=""><h6>Kebersihan</h6></a>
+                    <a href="../services/anjing/kebersihanajg.php"><h6>Kebersihan</h6></a>
                 </div>
             </div>   
             <div class="link-saran">

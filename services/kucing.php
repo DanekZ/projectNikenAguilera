@@ -43,27 +43,27 @@
             <div class="daftar-tema ">
                 <div class="list-tema">
                     <img src="../image/catmakan.jpg" alt="">
-                    <a href=""><h6>Makanan</h6></a>
+                    <a href="../kucing/makanankcg.php"><h6>Makanan</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/obatcat.jpg" alt="">
-                    <a href=""><h6>Kesehatan</h6></a>
+                    <a href="../kucing/kesehatankcg.php"><h6>Kesehatan</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/catgigi.jpg" alt="">
-                    <a href=""><h6>Perawatan Gigi</h6></a>
+                    <a href="../kucing/gigikcg.php"><h6>Perawatan Gigi</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/catbulu.jpg" alt="">
-                    <a href=""><h6>Perawatan Bulu</h6></a>
+                    <a href="../kucing/bulukcg.php"><h6>Perawatan Bulu</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/catfisik.jpg" alt="">
-                    <a href=""><h6>Aktivitas Fisik</h6></a>
+                    <a href="../kucing/fisikkcg.php"><h6>Aktivitas Fisik</h6></a>
                 </div>
                 <div class="list-tema">
                     <img src="../image/catee.jpg" alt="">
-                    <a href=""><h6>Kebersihan</h6></a>
+                    <a href="../kucing/kebersihankcg.php"><h6>Kebersihan</h6></a>
                 </div>
             </div>   
             <div class="link-saran">
